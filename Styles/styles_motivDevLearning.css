@@ -1,0 +1,176 @@
+
+@counter-style numbers {
+  system: cylic;
+  symbols: "\2776" "\2777" "\2778" "\2779" "\277A" "\277B" "\277C" "\277D" "\277E" "\277F";
+  suffix: " ";
+}
+
+#nomProjet {
+  width: 96%;
+}
+
+#motivations {
+  list-style-type: numbers;
+}
+
+
+body{
+  background-color: #E7D292;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  color: #1F4E75;
+}
+#intelligences {
+  font-weight: bolder;
+  font-size: medium;
+  list-style: none;
+}
+.mathLog {
+  color : #DA0808;
+}
+.verbLing {
+  color : #00D300;
+}
+.visuSpat {
+  color : #0606BD;
+}
+.physNatur {
+  color : #FFEE00;
+}
+.musRyth {
+  color : #00B08E;
+}
+.interPerso {
+  color : #FF7400;
+}
+.intraPerso {
+  color : #AC41AC;
+}
+.panneau {
+  width: 16%;
+  height: 100vw;
+  margin: 0;
+  padding: 1%;
+  text-align: justify;
+  border: solid #80681D;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #80681D;
+  background-color: #FFEFBE;
+  display: flex;
+  flex-flow: column;
+
+
+}
+
+.footer {
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1F4E75;
+  color: #FFEFBE;
+}
+
+.image {
+  max-width : 100%;
+  height : auto;
+}
+
+div.game {
+  text-align: center;
+  font-size: smaller;
+  margin: auto;
+  padding: 0;
+  border-radius: 5px;
+  border: thick #B2953F ;
+  box-shadow: 3px 3px 3px 2px #80681D;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #792020;
+}
+
+div.game:hover {
+  background-color: #1a1a83;
+  box-shadow: inset 3px inset 3px 3px 2px #80681D;
+  margin: 0;
+  padding: 0;
+  }
+
+a.game {
+  box-shadow: none;
+  color: #1a1a83;
+  text-decoration: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.centre {
+  background-color: #FFEFBE;
+  width: 58%;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: solid #80681D;
+  border-radius: 20px;
+  border-width: 1%;
+  padding: 1%;
+  box-shadow: 10px 10px 10px #80681D;
+  text-align: justify;
+}
+
+.gauche {
+  float: left;
+}
+
+.droite {
+  float: right;
+}
+
+.titre {
+
+  text-align: center;
+  }
+
+.headTitle {
+  display: inline-block;
+  text-shadow: 5px 5px 3px #7FA2C0;
+  box-shadow: 10px 10px 10px #80681D;
+  width: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-left: calc(6%-5px);
+  margin-right: calc(6%-5px);
+  margin-top: 0;
+  margin-bottom: 20px;
+  background-color: #FFEFBE;
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+  color: #1F4E75;
+  text-align: center;
+  border: solid #B2953F;
+  border-radius: 15px;
+  border-width: 10px;
+  border-style: double;
+  padding: 0;
+
+}
+
+h3 {
+  color: #1F4E75;
+}
+
+td{
+  width: 50%;
+  border: solid;
+  padding : 5 5 5 5;
+}
